@@ -1,12 +1,16 @@
 /*#b8dd16 greenyellow rgb(184, 221, 22) */
 
 body {
-    background-color: lightblue;
+    background: url(../images/blurred-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #header,
 #footer {
-    background-color: black;
+    /*background-color: black;*/
 }
 
 #nav-link {
@@ -16,7 +20,7 @@ body {
 }
 
 #header {
-    padding: 200px 0px 200px;
+    padding: 250px 0px 250px;
 }
 
 #name {
@@ -25,4 +29,16 @@ body {
 
 #title {
     color: grey;
+}
+
+#work-section {
+    background-color: lightgrey;
+}
+
+#about-section {
+    background-color: darkgrey;
+}
+
+#contact-section {
+    background-color: black;
 }
