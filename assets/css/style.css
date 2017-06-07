@@ -1,0 +1,28 @@
+/*#b8dd16 greenyellow rgb(184, 221, 22) */
+
+body {
+    background-color: lightblue;
+}
+
+#header,
+#footer {
+    background-color: black;
+}
+
+#nav-link {
+    color: grey;
+    border: 2px solid grey;
+    margin: 5px;
+}
+
+#header {
+    padding: 200px 0px 200px;
+}
+
+#name {
+    color: greenyellow;
+}
+
+#title {
+    color: grey;
+}
