@@ -39,6 +39,18 @@ body {
     background-color: darkgrey;
 }
 
+#social-section {
+    width: 30%;
+}
+
+.social-btn {
+    display: inline;
+}
+
+.social {
+    width: 30%;
+}
+
 #contact-section {
     background-color: black;
 }
