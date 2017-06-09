@@ -14,8 +14,8 @@ body {
 }
 
 #nav-link {
-    color: grey;
-    border: 2px solid grey;
+    color: hotpink;
+    border: 2px solid hotpink;
     margin: 5px;
 }
 
@@ -35,12 +35,25 @@ body {
     background-color: lightgrey;
 }
 
+.project-img {
+    width: 500px;
+}
+
 #about-section {
     background-color: darkgrey;
 }
 
+#photo {
+    height: 250px;
+}
+
+.about-me {
+    /*float: clear;*/
+}
+
 #social-section {
-    width: 30%;
+    width: 15%;
+    clear: both;
 }
 
 .social-btn {
