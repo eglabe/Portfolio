@@ -46,16 +46,11 @@ h1.section-title {
     background-color: darkgrey;
 }
 
-#work-section-1 {
-    width: 90%;
-    margin: auto;
-}
-
 #work-wrapper-2 {
     background-color: lightgrey;
 }
 
-#work-section-2 {
+#work-section {
     width: 90%;
     margin: auto;
 }
