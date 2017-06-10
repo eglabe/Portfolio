@@ -42,11 +42,20 @@ h1.section-title {
 
 /*WORK*/
 
-#work-wrapper {
+#work-wrapper-1 {
+    background-color: darkgrey;
+}
+
+#work-section-1 {
+    width: 90%;
+    margin: auto;
+}
+
+#work-wrapper-2 {
     background-color: lightgrey;
 }
 
-#work-section {
+#work-section-2 {
     width: 90%;
     margin: auto;
 }
@@ -72,6 +81,16 @@ h1.section-title {
     margin-right: 20px;
 }
 
+
+/*CONTACT*/
+
+#contact-section {
+    background-color: black;
+}
+
+
+/*SOCIAL*/
+
 #social-section {
     width: 15%;
     clear: both;
@@ -89,13 +108,6 @@ h1.section-title {
 
 a:hover {
     text-decoration: none;
-}
-
-
-/*CONTACT*/
-
-#contact-section {
-    background-color: black;
 }
 
 
