@@ -1,17 +1,16 @@
 /*#b8dd16 greenyellow rgb(184, 221, 22) */
 
 body {
-    background: url(../images/blurred-background.jpg) no-repeat center center fixed;
+    background: url(../images/blurred_black.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#header,
-#footer {
-    /*background-color: black;*/
-}
+
+/*HEADER*/
 
 #nav-link {
     color: hotpink;
@@ -21,26 +20,45 @@ body {
 
 #header {
     padding: 250px 0px 250px;
+    width: 100%;
+    height: 100%;
 }
 
 #name {
     color: greenyellow;
+    font-size: 60px;
 }
 
 #title {
     color: grey;
 }
 
-#work-section {
+
+/*WORK*/
+
+#work-wrapper {
     background-color: lightgrey;
+}
+
+#work-section {
+    width: 90%;
+    margin: auto;
 }
 
 .project-img {
     width: 500px;
 }
 
-#about-section {
+
+/*ABOUT*/
+
+#about-wrapper {
     background-color: darkgrey;
+}
+
+#about-section {
+    width: 90%;
+    margin: auto;
 }
 
 #photo {
@@ -54,15 +72,19 @@ body {
 #social-section {
     width: 15%;
     clear: both;
+    margin: auto;
 }
 
 .social-btn {
     display: inline;
 }
 
-.social {
+.social-img {
     width: 30%;
 }
+
+
+/*CONTACT*/
 
 #contact-section {
     background-color: black;

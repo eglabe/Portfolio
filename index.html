@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Erin Glabe</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -27,72 +28,82 @@
 
     <!--HEADER-->
     <div id="header" class="container-fluid text-center">
-        <div id="name">
+        <h1 id="name">
             Erin Glabe
-        </div>
-        <div id="title">
+        </h1>
+        <h4 id="title">
             Jr Web Developer
-        </div>
+        </h4>
     </div>
 
     <!--WORK-->
-    <div id="work-section" class="container-fluid">
-        <h3>Work</h3>
-        <div class="row">
-            <div class="col-md-6">
-                <h4>Remy's List</h4>
-                <img src="assets/images/remysList.png" alt="" id="" class="project-img">
-            </div>
-            <div class="col-md-6">
-                <h4>PikyFilm</h4>
-                <img src="assets/images/pikyFilm.png" alt="" id="" class="project-img">
+    <div id="work-wrapper" class="container-fluid">
+        <div id="work-section">
+            <h3 class="text-center">Work</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Remy's List</h4>
+                    <a href="http://remyslist.herokuapp.com/" target="_blank">
+                        <img src="assets/images/remysList.png" alt="" id="" class="project-img">
+                    </a>
+                    <p>Short blurb about project</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>PikyFilm</h4>
+                    <a href="https://pikyfilm.herokuapp.com/" target="_blank">
+                        <img src="assets/images/pikyFilm.png" alt="" id="" class="project-img">
+                    </a>
+                    <p>Short blurb about project</p>
+                </div>
             </div>
         </div>
     </div>
 
     <!--ABOUT-->
-    <div id="about-section" class="container-fluid">
-        <h3>About Me</h3>
-        <div class="pull-left">
-            <img src="assets/images/erin.jpg" alt="Erin" id="photo" class="img-circle img-responsive">
-        </div>
-        <div class="">
-            <p class="about-me">
-                Steve Holt! What's Spanish for "I know you speak English?" Get me a vodka rocks. And a piece of toast. Steve Holt! Say goodbye to these, because it's the last time! I'm afraid I just blue myself. I don't criticize you! And if you're worried about criticism,
-                sometimes a diet is the best defense. But I bought a yearbook ad from you, doesn't that mean anything anymore?
-            </p>
-            <p class="about-me">
-                No! I was ashamed to be SEEN with you. I like being with you. It's a hug, Michael. I'm hugging you. Marry me. Say goodbye to these, because it's the last time! I'm a monster. I don't criticize you! And if you're worried about criticism, sometimes a diet
-                is the best defense. There's so many poorly chosen words in that sentence. That's what it said on 'Ask Jeeves.' I've opened a door here that I regret.
-            </p>
-        </div>
-        <div id="social-section" class="">
-            <div id="github" class="social-btn">
-                <a href="https://github.com/eglabe" target="_blank">
-                    <img class="social" src="assets/images/github.png" alt="github">
-                </a>
+    <div id="about-wrapper" class="container-fluid">
+        <div id="about-section">
+            <h3 class="text-center">About Me</h3>
+            <div class="pull-left">
+                <img src="assets/images/erin.jpg" alt="Erin" id="photo" class="img-circle img-responsive">
             </div>
-            <div id="linkedin" class="social-btn">
-                <a href="https://www.linkedin.com/in/erin-glabe" target="_blank">
-                    <img class="social" src="assets/images/linkedin.png" alt="linkedin">
-                </a>
+            <div class="">
+                <p class="about-me">
+                    Steve Holt! What's Spanish for "I know you speak English?" Get me a vodka rocks. And a piece of toast. Steve Holt! Say goodbye to these, because it's the last time! I'm afraid I just blue myself. I don't criticize you! And if you're worried about criticism,
+                    sometimes a diet is the best defense. But I bought a yearbook ad from you, doesn't that mean anything anymore?
+                </p>
+                <p class="about-me">
+                    No! I was ashamed to be SEEN with you. I like being with you. It's a hug, Michael. I'm hugging you. Marry me. Say goodbye to these, because it's the last time! I'm a monster. I don't criticize you! And if you're worried about criticism, sometimes a diet
+                    is the best defense. There's so many poorly chosen words in that sentence. That's what it said on 'Ask Jeeves.' I've opened a door here that I regret.
+                </p>
             </div>
-            <div id="twitter" class="social-btn">
-                <a href="https://twitter.com/eringlabe" target="_blank">
-                    <img class="social" src="assets/images/twitter.png" alt="twitter">
-                </a>
+            <div id="social-section" class="text-center">
+                <div id="github" class="social-btn">
+                    <a href="https://github.com/eglabe" target="_blank">
+                        <img class="social-img" src="assets/images/github.png" alt="github">
+                    </a>
+                </div>
+                <div id="linkedin" class="social-btn">
+                    <a href="https://www.linkedin.com/in/erin-glabe" target="_blank">
+                        <img class="social-img" src="assets/images/linkedin.png" alt="linkedin">
+                    </a>
+                </div>
+                <div id="twitter" class="social-btn">
+                    <a href="https://twitter.com/eringlabe" target="_blank">
+                        <img class="social-img" src="assets/images/twitter.png" alt="twitter">
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 
     <!--CONTACT-->
     <div id="contact-section" class="container-fluid">
-        <h3>Contact</h3>
+        <h3 class="text-center">Contact</h3>
     </div>
 
     <!--FOOTER-->
-    <div id="footer" class="container-fluid">
-        All rights reserved. Erin Glabe 2017.
+    <div id="footer" class="container-fluid text-center">
+        © Copyright Erin Glabe 2017.
     </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
