@@ -27,10 +27,16 @@ body {
 #name {
     color: greenyellow;
     font-size: 60px;
+    font-weight: bold;
 }
 
 #title {
     color: grey;
+}
+
+h1.section-title {
+    color: hotpink;
+    margin-top: 30px;
 }
 
 
@@ -62,17 +68,15 @@ body {
 }
 
 #photo {
-    height: 250px;
-}
-
-.about-me {
-    /*float: clear;*/
+    height: 200px;
+    margin-right: 20px;
 }
 
 #social-section {
     width: 15%;
     clear: both;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .social-btn {
@@ -83,9 +87,21 @@ body {
     width: 30%;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 
 /*CONTACT*/
 
 #contact-section {
     background-color: black;
+}
+
+
+/*FOOTER*/
+
+#footer {
+    color: darkgrey;
+    margin: 30px 0px 30px 30px;
 }
